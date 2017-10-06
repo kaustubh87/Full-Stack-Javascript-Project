@@ -5,5 +5,5 @@ let app = require('./app.js')
 let port = nconf.get('PORT') || 3000
 
 app.listen(port, () => {
-  console.log(`Running on ${port}`)
+  console.log(`Running on ${port}`);
 })
